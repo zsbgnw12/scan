@@ -62,7 +62,7 @@ if __name__ == '__main__':
                     |___|_  [.]_|_|_|__,|  _|   |  |——————|   |  |——————|
                           |_|V...       |_|     ——————————|   ——————————|  @Chenchen Disclaimers
                            
-                          You can download it in https://github.com/zsbgnw12/scanccs.git
+                          You can download it in https://github.com/zsbgnw12/scan.git
     """)
     print("""
                                 提供查询内容如下:
