@@ -12,7 +12,7 @@ Choose one of these installation options:
 ```
 git clone https://github.com/zsbgnw12/scanccs.git
 cd scanccs
-pip3 install requset,re,selenium,asyncio
+pip3 install requests,selenium,asyncio,aiohttp
 python3 start.py -u <URL> -p <FUNCTION> -t <THREADING> -s <FILE>
 ```
 
