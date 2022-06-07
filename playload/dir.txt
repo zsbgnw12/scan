@@ -1,0 +1,10 @@
+/flash/
+/ytzg/
+/robots.txt
+/asdfasdfa
+/asfas
+/asdf/as/f
+/asdfasd
+/fas
+/asdfa
+/aa
