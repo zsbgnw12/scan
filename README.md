@@ -4,8 +4,8 @@
 
 Choose one of these installation options:
 
-- Install with git: `git clone https://github.com/zsbgnw12/scanccs.git` (RECOMMENDED)
-- Install with ZIP file: [Download here](https://github.com/zsbgnw12/scanccs/archive/refs/heads/master.zip)
+- Install with git: `git clone https://github.com/zsbgnw12/scan.git (RECOMMENDED)
+- Install with ZIP file: [Download here](https://github.com/zsbgnw12/scan/archive/refs/heads/master.zip)
 
 **All in one:**
 
