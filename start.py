@@ -11,7 +11,7 @@ def start_help():
     parser.add_option("-u","--site",metavar='URL    ',dest="website",help="website to test",action="store",type="string")
     parser.add_option('-s','--urlfile',metavar='URLTEXT',dest='urlfile',help='user from file',action='store',type='string')
     parser.add_option('-t','--threads',metavar='THREADS',dest='threads',help='number of threads',action='store',type='int')
-    parser.add_option('-p',"--playload",metavar='PLAYLOAD',dest='playload',help="choice what you need playload   (-p whois , whois查询)   (-p udp , 开放端口查询)   (-p cdn , CDN查询)   (-p domain , 查询子域名)   (-p urldir , 目录猜测-多线程 , -p  urldirs , 目录猜测-异步协程)   (-p cms , cms查询)",action='store',type='string')
+    parser.add_option('-p',"--playload",metavar='PLAYLOAD',dest='playload',help="choice what you need playload   (-p whois , whois查询)   (-p udp , 开放端口查询)   (-p cdn , CDN查询)   (-p domain , 查询子域名)   (-p urldir , 目录扫描-多线程 , -p  urldirs , 目录扫描-异步协程)   (-p cms , cms查询)",action='store',type='string')
     (options,args) = parser.parse_args()
     return options
 
@@ -71,8 +71,8 @@ if __name__ == '__main__':
                                 -p cdn                             CDN查询
                                 -p domain                          子域名查询
                                 -p cms                             cms查询
-                                -p urldir -s urlfile               目录猜测（异步协程模式）
-                                -p urldirs  -s urlfile -t thread   目录猜测（多线程模式）
+                                -p urldir -s urlfile               目录扫描（异步协程模式）
+                                -p urldirs  -s urlfile -t thread   目录扫描（多线程模式）
                                           
     """)
     satrt = start_help()
